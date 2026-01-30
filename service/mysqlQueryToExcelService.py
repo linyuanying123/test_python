@@ -3,10 +3,10 @@ import logging
 import datetime
 import pandas as pd
 
-from migration_tools.constants import MESSAGES
-from migration_tools.config import mysql_config
-from migration_tools.dao import mysqlQueryToExcelDao, mysqlBatchExecuteDao
-from migration_tools.utils import excelUtils
+from constants import MESSAGES
+from config import mysql_config
+from dao import mysqlQueryToExcelDao, mysqlBatchExecuteDao
+from utils import excelUtils
 
 
 def mysql_query_to_excel():

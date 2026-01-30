@@ -3,7 +3,7 @@ import time
 from mysql.connector import Error
 import logging
 import sqlparse
-from migration_tools.constants import MESSAGES
+from constants import MESSAGES
 import re
 
 

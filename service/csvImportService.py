@@ -2,11 +2,11 @@ import logging
 import time
 import csv
 
-from migration_tools.constants import MESSAGES
-from migration_tools.config import mysql_config
-from migration_tools.dao import excelImportDao
+from constants import MESSAGES
+from config import mysql_config
+from dao import excelImportDao
 import mysql.connector
-from migration_tools.utils import sqlUtils, sysUtils
+from utils import sqlUtils, sysUtils
 
 def csv_file():
     logging.info(MESSAGES.CSV_IMPORT_INFO)
@@ -59,7 +59,7 @@ def csv_to_mysql():
 
     # 获取表名
     while True:
-        table_name = input(MESSAGES.INPUT_MYSQL_TABLE").strip()
+        table_name = input(MESSAGES.INPUT_MYSQL_TABLE).strip()
         if table_name:
             break
         print("表名不能为空，请重新输入。")

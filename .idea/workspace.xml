@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccc7da54-aff6-454d-b3a5-942b0f2d3916" name="更改" comment="" />
+    <list default="true" id="ccc7da54-aff6-454d-b3a5-942b0f2d3916" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mysql_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/mysql_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/csvImportService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/csvImportService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/deleteRowsService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/deleteRowsService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/directSqlQueryToExcelService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/directSqlQueryToExcelService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/excelImportService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/excelImportService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/excelInsertService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/excelInsertService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/excelSplitColumnService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/excelSplitColumnService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/mysqlBatchExecuteService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/mysqlBatchExecuteService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/mysqlQueryToExcelService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/mysqlQueryToExcelService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/tableMigrationService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/tableMigrationService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/excelUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/excelUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/logUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/logUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/sqlUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sqlUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/sysUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sysUtils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +46,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -41,8 +62,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -76,5 +98,16 @@
       <updated>1769478511083</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

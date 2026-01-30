@@ -3,8 +3,8 @@ import time
 import os
 import pandas as pd
 
-from migration_tools.constants import MESSAGES
-from migration_tools.utils import excelUtils
+from constants import MESSAGES
+from utils import excelUtils
 
 
 def excel_to_Split():

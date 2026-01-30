@@ -2,8 +2,8 @@ import os
 import time
 import pandas as pd
 import logging
-from migration_tools.constants import MESSAGES
-from migration_tools.utils import sysUtils
+from constants import MESSAGES
+from utils import sysUtils
 
 
 IMPORT_EXCEL_FOLDER = sysUtils.resource_path('import_excel')

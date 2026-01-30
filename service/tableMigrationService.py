@@ -1,9 +1,9 @@
 import logging
 import time
 
-from migration_tools.config import mysql_config
-from migration_tools.dao import tableMigrationDao
-from migration_tools.constants import MESSAGES
+from config import mysql_config
+from dao import tableMigrationDao
+from constants import MESSAGES
 
 
 def migrate_table_data():

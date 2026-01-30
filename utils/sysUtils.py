@@ -2,7 +2,7 @@ import time
 import sys
 import os
 import logging
-from migration_tools.constants import MESSAGES
+from constants import MESSAGES
 
 
 def resource_path(relative_path):

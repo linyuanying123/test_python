@@ -1,9 +1,9 @@
 import time
 
-from migration_tools.constants import MESSAGES
-from migration_tools.config import mysql_config
-from migration_tools.dao import mysqlBatchExecuteDao
-from migration_tools.utils import sqlUtils, sysUtils
+from constants import MESSAGES
+from config import mysql_config
+from dao import mysqlBatchExecuteDao
+from utils import sqlUtils, sysUtils
 import logging
 import datetime
 

@@ -1,4 +1,27 @@
 import time
+import sys
+import os
+from pathlib import Path
+
+import os
+import sys
+from pathlib import Path
+
+# 获取项目根目录绝对路径
+project_root = str(Path(__file__).parent.absolute())
+
+# 确保项目根目录在Python路径中
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+# 确保父目录也在Python路径中(用于从外部导入)
+parent_dir = str(Path(project_root).parent)
+if parent_dir not in sys.path:
+    sys.path.insert(0, parent_dir)
+
+# 重要：设置__package__变量
+if __name__ == '__main__' and __package__ is None:
+    __package__ = 'migration_tools'
 
 from migration_tools.constants import MESSAGES
 from migration_tools.service import excelImportService,mysqlBatchExecuteService,excelSplitColumnService,deleteRowsService,mysqlQueryToExcelService,tableMigrationService,directSqlQueryToExcelService,excelInsertService,csvImportService

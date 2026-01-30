@@ -3,10 +3,10 @@ import sys
 import time
 import datetime
 
-from migration_tools.config import mysql_config
-from migration_tools.dao import directSqlQueryToExcelDao
-from migration_tools.utils import excelUtils
-from migration_tools.constants import MESSAGES
+from config import mysql_config
+from dao import directSqlQueryToExcelDao
+from utils import excelUtils
+from constants import MESSAGES
 
 
 def direct_sql_query_to_excel():

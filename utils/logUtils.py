@@ -1,6 +1,6 @@
 import logging
 import os
-from migration_tools.utils import sysUtils
+from utils import sysUtils
 
 
 def setup_logging():

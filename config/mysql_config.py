@@ -2,8 +2,8 @@ import time
 
 import pymysql
 import logging
-from migration_tools.constants import MESSAGES
-from migration_tools.utils import sysUtils
+from constants import MESSAGES
+from utils import sysUtils
 
 
 DEFAULT_CONFIG_FILE = 'db_config.txt'

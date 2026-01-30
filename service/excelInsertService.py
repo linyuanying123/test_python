@@ -1,10 +1,10 @@
 import logging
 import time
 
-from migration_tools.constants import MESSAGES
-from migration_tools.config import mysql_config
-from migration_tools.dao import excelImportDao
-from migration_tools.utils import excelUtils
+from constants import MESSAGES
+from config import mysql_config
+from dao import excelImportDao
+from utils import excelUtils
 
 def excel_to_existing_table():
     """

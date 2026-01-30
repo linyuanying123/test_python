@@ -1,11 +1,11 @@
 import logging
 import time
 
-from migration_tools.constants import MESSAGES
-from migration_tools.config import mysql_config
-from migration_tools.dao import excelImportDao
+from constants import MESSAGES
+from config import mysql_config
+from dao import excelImportDao
 import mysql.connector
-from migration_tools.utils import sqlUtils, excelUtils, sysUtils
+from utils import sqlUtils, excelUtils, sysUtils
 
 
 def excel_to_mysql():

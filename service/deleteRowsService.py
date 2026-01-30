@@ -3,7 +3,7 @@ import time
 import os
 import openpyxl
 import pandas as pd
-from migration_tools.utils import excelUtils
+from utils import excelUtils
 
 def delete_rows_entrypoint():
     """
