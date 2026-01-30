@@ -2565,3 +2565,4 @@ Traceback (most recent call last):
     choice = input(">>> 请输入选项（1/2/3/4/5/6/7/8/9/10/99）: ")
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 EOFError: EOF when reading a line
+2026-01-30 09:56:10,943 - INFO - 程序开始了！！！！
