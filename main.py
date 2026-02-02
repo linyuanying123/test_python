@@ -3,10 +3,6 @@ import sys
 import os
 from pathlib import Path
 
-import os
-import sys
-from pathlib import Path
-
 # 获取项目根目录绝对路径
 project_root = str(Path(__file__).parent.absolute())
 
@@ -24,7 +20,7 @@ if __name__ == '__main__' and __package__ is None:
     __package__ = 'migration_tools'
 
 from migration_tools.constants import MESSAGES
-from migration_tools.service import excelImportService,mysqlBatchExecuteService,excelSplitColumnService,deleteRowsService,mysqlQueryToExcelService,tableMigrationService,directSqlQueryToExcelService,excelInsertService,csvImportService
+from migration_tools.service import excelImportService,mysqlBatchExecuteService,excelSplitColumnService,deleteRowsService,mysqlQueryToExcelService,tableMigrationService,directSqlQueryToExcelService,excelInsertService,csvImportService,wordToPdfService
 from migration_tools.utils import logUtils
 import logging
 
@@ -32,7 +28,7 @@ import logging
 
 def choose_menu():
     print(MESSAGES.CHOOSE_FUNCTION_INFO)
-    choice = input(">>> 请输入选项（1/2/3/4/5/6/7/8/9/10/99）: ")
+    choice = input(">>> 请输入选项（1/2/3/4/5/6/7/8/9/10/11/99）: ")
     if choice == "1":
         excelImportService.excel_to_mysql()
     elif choice == "2":
@@ -53,6 +49,8 @@ def choose_menu():
         excelInsertService.excel_to_existing_table()
     elif choice == "10":
         csvImportService.csv_to_mysql()
+    elif choice == "11":
+        wordToPdfService.word_to_pdf_entrypoint()
     elif choice == "99":  # 退出
         print(MESSAGES.EXIT_HANDLE_INFO)
         raise SystemExit
